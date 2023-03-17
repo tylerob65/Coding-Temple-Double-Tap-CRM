@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/landing.css">
     <title>Double Tap CRM</title>
 </head>
 <body>
-    <p>Testing larger comments</p>
+    <div id="nav">
+        <div class="nav-space"></div>
+        <div id="nav-logo"><img src="/assets/Logo-1@2x.png" alt="Double Tap Logo"></div>
+        <div id="top-nav-list">
+            <div class="top-nav-item"><a href="" class="top-nav-link">Home</a></div>
+            <div class="top-nav-item"><a href="" class="top-nav-link">Features</a></div>
+            <div class="top-nav-item"><a href="" class="top-nav-link">Pricing</a></div>
+            <div class="top-nav-item"><a href="" class="top-nav-link">How it Works</a></div>
+            <div class="top-nav-item"><a href="" class="top-nav-link">Support</a></div>    
+        </div>
+        <div id="nav-top-right-icons">
+            <a href="" id="nav-sign-in"> <p>Sign In</p></a>
+            <a href="" id="nav-try-it-free">Try It Free</a>
+        </div>
+        <div class="nav-space"></div>
+        
+    </div>
+    <p>Next portion of project</p>
+
+    <script>
+        // Script adds a class to specified elements giving them a cool
+        // animation/transition but only if user is using chrome. Safari was
+        // unable to handle this effect. This script was written using code from
+        // following sources and a lot of tinkering.
+        // https://www.browserstack.com/guide/create-browser-specific-css
+        // https://www.w3schools.com/howto/howto_js_add_class.asp
+        // https://stackoverflow.com/questions/4995440/add-class-to-object-on-page-load
+        window.onload = function() {
+            if (!!window.chrome) {
+                my_var = document.getElementsByClassName("top-nav-link");
+                for (let index = 0; index < my_var.length; index++) {
+                    my_var[index].classList.add("chrome-animation");
+                }
+            }
+        }
+    </script>
 </body>
 </html>

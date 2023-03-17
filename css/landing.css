@@ -1,3 +1,89 @@
+:root {
+    --main-blue: rgb(8, 80, 248)
+}
+
 html, body {
     margin: 0;
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-space {
+    width: 40px;
+}
+
+#nav-logo {
+    padding: 7px 0 11px 0;
+    height: 30px;
+    display: flex;
+    width: 112px;
+    align-self: flex-start;
+}
+
+#top-nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+    flex-grow: 1;
+    justify-content: space-around;
+}  
+
+.chrome-animation {
+    transition: 1s font-size, color;
+}
+
+.top-nav-item:hover a, .top-nav-item a:focus-visible {
+    color:var(--main-blue);
+    outline: none;
+    font-size: 17px;
+}
+
+.top-nav-item a:hover {
+    color: var(--main-blue);
+    outline: none;
+    font-size: 17px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.top-nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-top-right-icons{
+    display: inline-flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+#nav-sign-in, #nav-try-it-free {
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: small;
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#nav-sign-in{
+    color:var(--main-blue)
+}
+
+#nav-try-it-free {
+    color:white;
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
 }
