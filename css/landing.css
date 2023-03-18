@@ -1,5 +1,6 @@
 :root {
-    --main-blue: rgb(8, 80, 248)
+    --main-blue: rgb(8, 80, 248);
+    --dark-grey: rgb(101, 101, 101);
 }
 
 html, body {
@@ -156,7 +157,7 @@ html, body {
 #already-use-doubletap {
     text-decoration: none;
     font-weight: 400;
-    color:rgb(108, 108, 108);
+    color:var(--dark-grey);
 }
 
 .two-ellipse-line {
@@ -185,4 +186,75 @@ hr {
     border: none;
     height: 0.5px;
     background-color: darkgray;
+}
+
+#explore-double-tap {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+#explore-double-tap > p {
+    margin: 0;
+    font-size: 12px;
+    max-width: 500px;
+    text-align: center;
+}
+
+#explore-card-holder {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.explore-card{
+    width: 70px;
+    height: 80px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.explore-card p {
+    color: var(--dark-grey);
+    margin-top: 10px;
+}
+
+#center-icon {
+    border: 1px solid;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-color: transparent;
+}
+
+.explore-icon-holder {
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+}
+
+
+.explore-card img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.active-explore-card {
+    background-color: var(--main-blue);
+}
+
+.active-explore-card > p {
+    color: white;
 }
