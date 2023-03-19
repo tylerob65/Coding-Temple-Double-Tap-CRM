@@ -4,9 +4,9 @@ Coding temple assignment to recreate website for the company Double Top CRM. Bel
 ## Members and assignments
 Anderson: Sign In Page and Sign Up Page
 
-Tyler: Main content in Landing Page + Navbar used in Landing Page and How it Works Page
+Tyler: Main content in Landing Page. Plus the Navbar, header, and footer used in Landing Page and How it Works Page
 
-Tristyn: Main content in How It Works Page + Footer used in Landing Page and How it Works Page
+Tristyn: Main content in How It Works Page
 
 ## Landing Page
 ![alt text](https://github.com/tylerob65/Coding-Temple-Double-Tap-CRM/blob/3f1d85cc8a08b5b89f27a56c076366e76d075c02/assets/CRM-Landing.png?raw=true)
