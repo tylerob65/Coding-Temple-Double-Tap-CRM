@@ -145,11 +145,11 @@ html, body {
 
 #chat-with-us {
     background-color: white;
-    color:var(--main-blue)
+    color:var(--main-blue);
 }
 
 
-#header-sect1-buttons a {
+#header-sec1-buttons a {
     text-decoration: none;
 }
 
@@ -245,7 +245,6 @@ hr {
     object-fit: contain;
 }
 
-
 .explore-card img{
     max-width: 90%;
     max-height: 90%;
@@ -257,4 +256,76 @@ hr {
 
 .active-explore-card > p {
     color: white;
+}
+
+#accepting-payments-holder-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#accepting-payments-holder {
+    width:80%;
+    display: flex;
+    justify-content: center;
+}
+
+#big-credit-card-image-holder {
+    border: 1px solid var(--dark-grey);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+#big-credit-card-image {
+    object-fit: contain;
+    width: 300px;    
+}
+
+#accepting-text-holder {
+    border: 1px solid var(--main-blue);
+    border-radius: 0 10px 10px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    background-color: var(--main-blue);
+}
+
+#accepting-text {
+    color: white;
+    max-width: 400px;
+}
+
+#accepting-text-paragraph{
+    font-size: 10pt;
+}
+
+.accepting-text-list {
+    font-size: 8pt;
+}
+
+#learn-more-blue {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 150px;
+    border: 1px solid white;
+    font-size: 10pt;
+    background-color: var(--main-blue);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#learn-more-blue p {
+    margin: 7px auto;
+    font-size: 8pt;
+    font-weight: 300;
+}
+
+.learn-more-right-caret {
+    font-size: 20px;
 }
