@@ -396,3 +396,56 @@ hr {
 .learn-more-right-caret {
     font-size: 20px;
 }
+
+footer {
+    background-color: var(--main-blue);
+    text-align: center;
+    color: white;
+}
+
+#footer-buttons-holder {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#footer-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+
+#footer-buttons>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 120px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#get-started-footer {
+    background-color: rgb(127,209,37);
+    color: white;
+}
+
+#chat-with-us-footer {
+    background-color: white;
+    color: var(--main-blue);
+}
+
+#ellipse-holder-footer {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.ellipse-footer {
+    height: 7px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+}
