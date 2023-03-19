@@ -5,14 +5,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/how-it-works.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8e76cb2b07.js" crossorigin="anonymous"></script>
     <title>How Double Tap CRM Works</title>
-   
 </head>
 
 <body>
-    <div> let me try</div>
-    <div>I let you try</div>
-    <div>I'm trying again</div>
+    <div id="nav">
+        <div class="nav-space"></div>
+        <div id="nav-logo"><img src="/assets/Logo-1@2x.png" alt="Double Tap Logo"></div>
+        <div id="top-nav-list">
+            <div class="top-nav-item"><a href="/landing.html" class="top-nav-link">Home</a></div>
+            <div class="top-nav-item"><a href="" class="top-nav-link">Features</a></div>
+            <div class="top-nav-item"><a href="" class="top-nav-link">Pricing</a></div>
+            <div class="top-nav-item"><a href="/how-it-works.html" class="top-nav-link">How it Works</a></div>
+            <div class="top-nav-item"><a href="" class="top-nav-link">Support</a></div>
+        </div>
+        <div id="nav-top-right-icons">
+            <a href="/sign-in.html" id="nav-sign-in">
+                <p>Sign In</p>
+            </a>
+            <a href="/sign-up.html" id="nav-try-it-free">Try It Free</a>
+        </div>
+        <div class="nav-space"></div>
+    </div>
+
+    <div id="header">
+        <div id="header-sec1">
+            <h1>Focus on <br>Your Business</h1>
+            <h2>Let Us Handle Everything Else</h2>
+            <p class="grey">Subscription Billing, powered with revenue retention tools and a
+                seamless customer experience - without the technical hurdles.
+            </p>
+            <div id="header-sec1-buttons">
+                <a href="/sign-up.html" id="sign-up-free-blue">
+                    <p><b>Sign Up Free&nbsp;&nbsp;&nbsp;»</b></p>
+                </a>
+                <a href="" id="chat-with-us">
+                    <p><i class="fa-solid fa-comment-dots"></i><b>&nbsp;&nbsp;Chat With Us</b></p>
+                </a>
+            </div>
+            <a href="/sign-in.html" id="already-use-doubletap">
+                <p>Already using <b>Double</b>Tap? <b>Sign In</b></p>
+            </a>
+            <div class="two-ellipse-line">
+                <span class="ellipse-line-text">Free 14 day trial</span>
+                <div class="ellipse"></div>
+                <span class="ellipse-line-text">Manage Customers in Minutes</span>
+                <div class="ellipse"></div>
+                <span class="ellipse-line-text">Cancel at Anytime</span>
+            </div>
+        </div>
+        <img src="/assets/Header-Side@2x.png" alt="Header Image">
+    </div>
+
+    <hr>
+    <br>
+    <br>
+    <!-- Tristyn, add your code below here -->
+
+
+
+
+    <h1>Tristyn Please Add your code here</h1>
+    
+    
+    
+    <!-- Tristyn, add your code above here -->
+    <br>
+    <br>
+    
+    <footer>
+        <br>
+        <h1>Try Double Tap Today!</h1>
+        <p>Let's Get Started</p>
+        <div id="footer-buttons-holder">
+            <div id="footer-buttons">
+                <a href="/sign-up.html" id="get-started-footer">
+                    <p><b>&nbsp;&nbsp;Get Started&nbsp;&nbsp;&nbsp;»</b></p>
+                </a>
+                <a href="" id="chat-with-us-footer">
+                    <p><i class="fa-solid fa-comment-dots"></i><b>&nbsp;&nbsp;Chat With Us</b></p>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div id="ellipse-holder-footer">
+            <div class="two-ellipse-line">
+                <span class="ellipse-line-text">Free 14 day trial</span>
+                <div class="ellipse-footer"></div>
+                <span class="ellipse-line-text">Manage Customers in Minutes</span>
+                <div class="ellipse-footer"></div>
+                <span class="ellipse-line-text">Cancel at Anytime</span>
+            </div>
+        </div>
+        <br>
+    </footer>
+
+    <script>
+        // Script adds a class to specified elements giving them a cool
+        // animation/transition but only if user is using chrome. Safari was
+        // unable to handle this effect. This script was written using code from
+        // following sources and a lot of tinkering.
+        // https://www.browserstack.com/guide/create-browser-specific-css
+        // https://www.w3schools.com/howto/howto_js_add_class.asp
+        // https://stackoverflow.com/questions/4995440/add-class-to-object-on-page-load
+        window.onload = function () {
+            if (!!window.chrome) {
+                my_var = document.getElementsByClassName("top-nav-link");
+                for (let index = 0; index < my_var.length; index++) {
+                    my_var[index].classList.add("chrome-animation");
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
