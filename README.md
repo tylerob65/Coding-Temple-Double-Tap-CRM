@@ -3,7 +3,7 @@ Coding temple assignment to recreate website for the company Double Top CRM. Bel
 
 ## Members and assignments
 
-Tyler: Landing Page and How-It-Works Page.
+Tyler: Landing Page and How-It-Works Page
 
 Tristyn: Sign In Page and Sign Up Page
 
