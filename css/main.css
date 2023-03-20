@@ -137,7 +137,6 @@ html, body {
     border: 1.5px solid var(--main-blue);
 }
 
-
 #sign-up-free-blue {
     background-color: var(--main-blue);
     color: white;
@@ -148,11 +147,9 @@ html, body {
     color:var(--main-blue);
 }
 
-
 #header-sec1-buttons a {
     text-decoration: none;
 }
-
 
 #already-use-doubletap {
     text-decoration: none;
@@ -281,10 +278,10 @@ hr {
 
 #big-credit-card-image {
     object-fit: contain;
-    width: 300px;    
+    width: 300px;
 }
 
-#accepting-text-holder {
+.white-blue-big-card-text-holder {
     border: 1px solid var(--main-blue);
     border-radius: 0 10px 10px 0;
     padding-top: 30px;
@@ -294,17 +291,65 @@ hr {
     background-color: var(--main-blue);
 }
 
-#accepting-text {
+.white-blue-big-card-text {
     color: white;
     max-width: 400px;
 }
 
-#accepting-text-paragraph{
+.white-blue-big-card-text-paragraph{
     font-size: 10pt;
 }
 
 .accepting-text-list {
     font-size: 8pt;
+}
+
+#how-it-works-sec,
+#more-lorem-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#how-it-works-sec>p,
+#more-lorem-text>p {
+    max-width: 325px;
+    font-weight: 500;
+}
+
+.white-blue-big-card-holder-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.white-blue-big-card-holder {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.white-blue-big-card-image-holder {
+    border: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+#collect-useful-info-image {
+    object-fit: contain;
+    width: 280px;
+    padding: 20px;
+}
+
+#get-paid-sooner-image {
+    object-fit: contain;
+    width: 180px;
+    padding: 20px 65px;
 }
 
 #learn-more-blue {
@@ -337,6 +382,7 @@ hr {
     justify-content: center;
     align-items: center;
 }
+
 .solution-card-holder {
     width: 80%;
     display: flex;
@@ -370,6 +416,7 @@ hr {
     font-size: 15pt;
     margin: 10px;
 }
+
 .solution-card p {
     font-size: 8pt;
     margin: 0;
